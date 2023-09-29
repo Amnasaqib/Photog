@@ -23,6 +23,9 @@ header {
     background-color: lightgoldenrodyellow;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif ;
+}
 /* Main */
 main {
     background-color: mediumorchid;
