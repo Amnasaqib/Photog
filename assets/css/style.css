@@ -201,6 +201,24 @@ main {
     width: 350px;
     right: 50px;
  }
+/* Inner main section*/
+#Reasons-to-capture,
+ #Reasons-to-choose-us {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+
+ #Reasons-to-capture > div,
+ #Reasons-to-choose-us > div {
+    width: 75%;
+ }
+
+ #Reasons-to-choose-us>div {
+    text-align: end;
+    align-self: flex-end;
+ }
+
 }
 
 
@@ -211,4 +229,25 @@ main {
     }
     
 }
+@media screen and (min-width: 1200px) {
+    #Reasons {
+        display: flex;
+        flex-direction: row;
+    }
+  #Reasons > div {
+    flex: 1;
+  }
+ #reasons-image {
+    order: 0;
+ }
+#Reasons-to-choose-us {
+    order: 1;
+}
+ #Reasons-to-choose-us > div {
+    align-self: flex-start;
+ }
 
+ #Reasons-to-capture  > div {
+align-self: flex-end;
+ }
+}
