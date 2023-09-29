@@ -20,7 +20,12 @@ font-family: 'Gemunu Libre', sans-serif;
 
 /* Header */
 header {
-    background-color: lightgoldenrodyellow;
+    background-color:  rgba(25, 25, 25, 0.9);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 h1 {
