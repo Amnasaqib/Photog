@@ -26,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 header a {
 text-decoration: none;
@@ -57,8 +60,20 @@ nav {
     padding: 5px 0 5px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     display: none;
+    top: 100%;
     }
 
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 /* Main */
 main {
