@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@279&family=Montserrat&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
 padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
- /* General styles */
+   /* General styles */
 body {
 min-height: 100vh;
 display: flex;
 flex-direction: column;
 /* Generic project styles */
 color: #d6d4d4;
+font-family: 'Gemunu Libre', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
