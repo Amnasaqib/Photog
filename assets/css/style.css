@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@279&family=Montserrat&display=swap');
+ /* Google fonts import */ 
+ @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@279&family=Montserrat&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -19,7 +20,7 @@ font-family: 'Gemunu Libre', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 , h2, h3  {
+h1, h2, h3  {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -84,7 +85,8 @@ nav {
 }
 
 /* Main */
-main {/* Enlarge main element to push footer down*/
+main {
+    /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
@@ -92,58 +94,7 @@ main {/* Enlarge main element to push footer down*/
     display: flex;
     flex-direction: column;
     
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 55px;
 }
-/* Form */
-#contact-us {
-    background-image: url("../images/form.image.jpg");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-    color: #fafafa;
-}
-
-#contact-us-form {
-    color: black;
-    background-color: rgba(80, 80, 80, 0.8);
-    padding: 30px;
-}
-
-#contact-us-form>h2 {
-    color:  #3a3a3a;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    padding: 0 5px;
-}
-
-.radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.run-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: #fafafa;
-    color: #3a3a3a;
-}
-
-
 
 /* Hero section */
 #hero {
@@ -212,7 +163,7 @@ hr {
 
 #times div {
     color: #fafafa;
-    background: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
     flex-basis: 200px;
@@ -228,9 +179,54 @@ hr {
 #photos{
 line-height: 0;
 }
+/* Form */
+#contact-us {
+    background: url("../images/contact-us.image.jpg");
+    background-size: cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+}
+#contact-us-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
 
 
+#contact-us-form>h2 {
+    color: #3a3a3a;
+    margin-bottom: 20px;
+}
 
+
+.text-input {
+    background: transparent;
+    color: #3a3a3a;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #3a3a3a;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.run-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #fafafa;
+    color: #3a3a3a;
+}
 
 /* Footer */
 footer{
@@ -316,17 +312,20 @@ main {
 /* Gallery */ 
 #photos {
     column-count: 3;
-}
-#contact {
+  }
+/* Form */
+  #contact-us {
     background-position: center;
-    position: relative;
-}
-#contact-form {
+        position: relative;
+  }
+
+  #contact-us-form {
     max-width: 400px;
-    position: absolute;
-    left: 10%;
-    top: 150px;
-}
+        position: absolute;
+        left: 10%;
+        top: 150px;
+  }
+
 .text-input:hover {
     border-color: #ff0000;
 }
@@ -335,10 +334,8 @@ main {
     background-color: #fafafa;
     color: #ff0000;
 }
-
-
-
 }
+
 
 
 /* Larger devices (laptops and desktops, 992px and up) */
