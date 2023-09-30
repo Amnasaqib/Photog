@@ -84,12 +84,66 @@ nav {
 }
 
 /* Main */
-main {
+main {/* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
     
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 55px;
 }
+/* Form */
+#contact-us {
+    background-image: url("../images/form.image.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    color: #fafafa;
+}
+
+#contact-us-form {
+    color: black;
+    background-color: rgba(80, 80, 80, 0.8);
+    padding: 30px;
+}
+
+#contact-us-form>h2 {
+    color:  #3a3a3a;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #fafafa;
+    color: #3a3a3a;
+}
+
+
 
 /* Hero section */
 #hero {
@@ -176,6 +230,8 @@ line-height: 0;
 }
 
 
+
+
 /* Footer */
 footer{
     background-color: #3a3a3a;
@@ -232,7 +288,7 @@ column-gap: 0;
     }
 /* Main content */
 main {
-    /* Push main content down to accomodate larger header */
+    /* Push main content down to accommodate larger header */
     margin-top: 79px;
  }
  /* Hero */
@@ -261,6 +317,27 @@ main {
 #photos {
     column-count: 3;
 }
+#contact {
+    background-position: center;
+    position: relative;
+}
+#contact-form {
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+}
+.text-input:hover {
+    border-color: #ff0000;
+}
+
+.run-button:hover {
+    background-color: #fafafa;
+    color: #ff0000;
+}
+
+
+
 }
 
 
@@ -274,7 +351,7 @@ main {
     column-count: 4;
 }
     }
-    
+
 }
 @media screen and (min-width: 1200px) {
     #Reasons {
