@@ -1,39 +1,24 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+𝗣𝗛𝗢𝗧𝗢𝗚:
+*𝐈𝐍𝐓𝐑𝐎𝐃𝐔𝐂𝐓𝐈𝐎𝐍:
+Welcome to my first website.This is a photography based website.The website is name 'PHOTOG', slack for photography. It contains different photos that may attract people to get services fro<m this photographer for their special events.It also links to an online booking page.
 
-Welcome,
+*𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒:
+𝐇𝐨𝐦𝐞/𝐋𝐚𝐧𝐝𝐢𝐧𝐠 𝐏𝐚𝐠𝐞:
+Hero image- a large image with cover text that shows what page is about.
+inner-main-section- a section that gives brief explanation to the reasons of capturing moments and why capture your moments.
+𝐄𝐱𝐩𝐥𝐨𝐫𝐞 𝐏𝐚𝐠𝐞:
+Gallery - a presentation of different images captured by the photographer ,to show their work in different fields like weddings, parties , and daily life pictures.
+𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐏𝐚𝐠𝐞:
+Contact - a section for the visitors of website to contact us online , entering a little personal information and selecting the type of photography they want to book or get trial for.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+*𝐓𝐄𝐂𝐇𝐍𝐎𝐋𝐎𝐆𝐈𝐄𝐒 𝐔𝐒𝐄𝐃:
+1.HTML
+2.CSS
+3.GOOGLE FONTS
+4.FONT AWESOME
+5.FAVICON.IO
+6.GITHUB
+7CODEANYWHERE
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+𝐓𝐄𝐒𝐓𝐈𝐍𝐆:
+This project is tested and validated manually and then by W3C Validator Tools and contains no errors.
