@@ -44,11 +44,9 @@
     <!-- Main content -->
     <main>
         <section id="contact-us">
-            <form id="contact-us-form" method="POST"
+            <form id="contact-us-form" method="GET"
         action="https://formdump.codeinstitute.net">
-        <h2> Enter your Details to Contact Us Online
-            <i class="fa-solid fa-square-phone-flip"></i>
-        </h2>
+        <h2> Enter your Details to Contact Us Online</h2>
         <label for="first_name">First Name</label>
         <input type="text" name="first_name" id="first_name" class="text-input" required>
         <br>
@@ -60,21 +58,21 @@
         <br>
         <div class="radio-buttons">
             <div>
-                <label for="Events">Events Photography</label>
+                <label for="Events">Events </label>
                 <input type="radio" name="Photography_preference" id="Events" value="Events" required checked>
             </div>
             <div>
-                <label for="Travel">Travel Photography </label>
+                <label for="Travel">Travel </label>
                 <input type="radio" name="Photography_preference" id="Travel" value="Travel" required checked>
             </div>
             <div>
-                <label for="Street">Street Photography</label>
+                <label for="Street">Street</label>
                 <input type="radio" name="Photography_preference" id="Street" value="Street" required checked>
             </div>
         </div>
-        
         <button type="submit" class="run-button">Run!</button>
-            </form>
+          
+    </form>
         </section>
     </main>
 
