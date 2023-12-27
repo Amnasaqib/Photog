@@ -99,7 +99,7 @@ designed simple and has all general information of the brand .
  
  *   The Footer contains various social media links ,
 
-
+## Technologies Used
    
 * [HTML5](https://html.spec.whatwg.org/)
   * Used to add structure and content to the site.
