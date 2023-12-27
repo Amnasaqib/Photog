@@ -39,11 +39,11 @@ designed simple and has all general information of the brand .
   ### User Stories
   As a user i want to:
 
-   *look for a good photographic site
-   *get some reasons to choose this photographer
-   *get to know their abilities
-   *look up on their past work 
-   *be able to contact them online 
+   * look for a good photographic site
+   * get some reasons to choose this photographer
+   * get to know their abilities
+   * look up on their past work 
+   * be able to contact them online 
 
    ## Site Structure
    * This site is made of three pages , A home page showing some reasons to choose us. A gallery page with display of some of our work and a contact page. More information on the site features can be found in the [features](#features) section.
@@ -60,7 +60,7 @@ designed simple and has all general information of the brand .
 
 #### Home
 
-*The home page has heading  featured on the landing .
+* The home page has heading  featured on the landing .
  * It is styled to be captivating and its contents refer to the purpose of the site.
   * This helps users to understand what the site is about and creates a positive first impression.
   ![screenshot of homepage heading](assets/images/homepage2.image.png)
@@ -73,7 +73,7 @@ designed simple and has all general information of the brand .
 * This contains reasons to choose us section .
 * Defines the need of photography.
 
-![Screenshot of home](assets/images/homepage2.image.png)
+![Screenshot of home](assets/images/homepage1.image.png)
 
 [Back to top](#contents)
 
@@ -128,7 +128,7 @@ designed simple and has all general information of the brand .
 * # CSS Validator
   
   ![Screenshot of CSS validation](assets/images/css.validator.image.png)
-  
+
   ## Deployment and Development
 
 ### Deploying the Site
@@ -143,3 +143,13 @@ designed simple and has all general information of the brand .
 ![Deployment screenshot](assets/images/deployment.image.png)
 
 [Back to top](#contents)
+
+## Credits
+
+### Content
+* The font used was taken from [Google Fonts](https://fonts.google.com/).
+* The favicon was generated using this [favicon generator](https://www.favicongenerator.com/).
+
+## Acknowledgements
+
+This site was developed as a portfolio project for the [Code Institute](https://codeinstitute.net/global/).
